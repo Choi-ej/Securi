@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/connect"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@mipmap/navconnect"
+        android:title="connect" />
+    <item
+        android:id="@+id/autoOpen"
+        app:showAsAction="always"
+        android:icon="@mipmap/navdooropen"
+        android:title="autoopen" />
+    <item
+        android:id="@+id/home"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@mipmap/navhome"
+        android:title="home" />
+    <item
+        android:id="@+id/history"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@mipmap/navhistory"
+        android:title="history" />
+    <item
+        android:id="@+id/myPage"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@mipmap/navmypage"
+        android:title="myPage" />
+</menu>

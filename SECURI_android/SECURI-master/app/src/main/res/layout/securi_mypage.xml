@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="#ECEBEB"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@mipmap/mypage_profile"
+        android:layout_gravity="center"/>
+    <TextView
+    android:id="@+id/myId"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="hanazzing"
+    android:layout_marginTop="20dp"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:gravity="center"/>
+    <TextView
+        android:id="@+id/myEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hanazzing@naver.com"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+    <LinearLayout
+        android:id="@+id/serverInfo_extend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/border">
+        <TextView
+            android:id="@+id/serverInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서버 및 기기 연결 정보"
+            android:textSize="23dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/mypage_connect"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/dataInfo_extend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/border">
+        <TextView
+            android:id="@+id/dataInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="데이터 저장 및 관리"
+            android:textSize="23dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="55dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/mypage_data" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/notiInfo_extend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/border">
+        <TextView
+            android:id="@+id/notiInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="알림사항 및 문의"
+            android:textSize="23dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="83dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/mypage_question"/>
+    </LinearLayout>
+
+</LinearLayout>
