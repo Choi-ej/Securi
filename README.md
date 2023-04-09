@@ -1,7 +1,7 @@
 # Securi
 ### 2020.03~2020.11
 
-Android + Arduino Home Security app
+Android + Arduino Home Security app (3 members)
 
 What I worked
 - Arduino : Connect Magnetic door sensor and esp cam
